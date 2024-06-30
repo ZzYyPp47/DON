@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3953f20e-7311-496d-9406-fbfda7e0200b" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DON.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DON.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DON.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NN/CNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NN/Dropout_FNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NN/FNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NN/ResCNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NN/ResFNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NN/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_train_R/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/DON.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/FNN.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/FNN_hard.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/Dropout/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/lr=0.0001_C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_FNN_R/lr=0.0001_L.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../CICP/mini.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/DON.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NN/Dropout_FNN.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/data.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/loss.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../test/test.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2fTvHzItjCHxJo27X35nM4dImSt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.DON.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/pythoncode/DON&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythoncode\DON" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="3953f20e-7311-496d-9406-fbfda7e0200b" name="更改" comment="" />
+      <created>1713837798356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713837798356</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
