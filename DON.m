@@ -18,10 +18,10 @@ Gauss_flag = false;
 dx = 1/99; % 指定训练点的采样间隔
 x = -0.5:dx:0.5; % 指定训练点(对gauss无效)
 y = x; % 指定评估点
-num = 49; % L_F 的上限 (从0开始)
+num = 4; % L_F 的上限 (从0开始)
 M = 100; % 抽取 f 的个数
-r_max = 1; % 重映射的最大值(对gauss无效)
-r_min = 0; % 重映射的最小值(对gauss无效)
+r_max = 1/2; % 重映射的最大值(对gauss无效)
+r_min = -1/2; % 重映射的最小值(对gauss无效)
 if strcmp(method,'le')
     [~,L_F] = Legendre(num);
 elseif strcmp(method,'che')
@@ -95,8 +95,8 @@ for ii = 1:1:length(F)
 end
 %% 保存数据集至指定位置
 if save_flag == true
-    save("D:\pythoncode\DON\data.mat","data")
-    save("D:\pythoncode\DON\test.mat","test")
+    save("C:\Users\ZYP\Desktop\DON-master\data.mat","data")
+    save("C:\Users\ZYP\Desktop\DON-master\test.mat","test")
 end
 end
 %% 高斯核函数

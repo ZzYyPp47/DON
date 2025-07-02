@@ -31,7 +31,7 @@ def test():
     learning_rate = 0.0001
     name = 'DON'
     init_method = torch.nn.init.kaiming_uniform_ # 设置神经网络参数初始化方法
-    total_epochs = 300
+    total_epochs = 1000
     batch_size = 64
     dropout_rate = 0.1
     loss_func = nn.MSELoss().to(device) # 确定损失计算函数

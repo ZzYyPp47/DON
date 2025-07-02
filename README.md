@@ -8,6 +8,10 @@
 
 ## 更新
 
+### 2025.7.2
+
++ 修复了`mat`文件问题。
+
 ## 代码结构
 
 ![1](1.png)
@@ -18,7 +22,8 @@
 2. `data.py` 是数据的生成文件，创建了数据类`data`，其主要功能是加载所需的数据集
 3. `loss.py` 是定义了损失函数类的文件，这里定制了特定的损失函数，并把损失函数封装成了`LossCompute`类。
 4. `DON.py` 是使用上述定义的网络结构、数据和损失函数进行训练的主程序，其中的`DON`类中实现了模型的训练、模型参数的保存等功能。
-6. `test.py`是项目的入口，这里完成所有参数的初始化及后续的数据处理，提供了设置随机种子、设置随机化方法以及读取模型参数的功能。
+5. `test.py`是项目的入口，这里完成所有参数的初始化及后续的数据处理，提供了设置随机种子、设置随机化方法以及读取模型参数的功能。
+6. `DON.m`可以用来生成DeepONet所需的相关数据集。
 
 具体来看，使用这4个文件实现的流程如下：
 
@@ -42,9 +47,25 @@ G:f(x) &\mapsto \frac{d}{dx}f(x). \\
 $$
 这里可以以正交多项式基或者高斯随机场抽取数据集，见`DON.m`。
 
-数据集的格式为$\{\boldsymbol{f}_n(x), \boldsymbol{y}_j, u_{f_{n}}(\boldsymbol{y}_j)\},$其中$\boldsymbol{f}_n(x)=(f_{n}(x_1), \cdots, f_{n}(x_m)),$代表$f_n$在采样点$x_1, \cdots, x_m$处的值$\boldsymbol{f}_n(x)=(f_{n}(x_1), \cdots, f_{n}(x_m)),$而$u_{f_n}(\boldsymbol{y}_j)=f'_n(\boldsymbol{y}_j)$代表$f'_n$在评估点$\boldsymbol{y}_j=y_j, j=1, \cdots, y_K$处的值.
+数据集的格式为
+$$
+\{\boldsymbol{f}_n(x), \boldsymbol{y}_j, u_{f_{n}}(\boldsymbol{y}_j)\}
+$$
+其中 $\boldsymbol{f}_n(x)=(f_{n}(x_1), \cdots, f_{n}(x_m))$代表$f_n$在采样点$x_1, \cdots, x_m$处的值$\boldsymbol{f}_n(x)=(f_{n}(x_1), \cdots, f_{n}(x_m)),$而$u_{f_n}(\boldsymbol{y}_j)=f'_n(\boldsymbol{y}_j)$代表$f'_n$在评估点$\boldsymbol{y}_j=y_j, j=1, \cdots, y_K$处的值.
 
-例如, 取$f_1=x^2,$  $f_2=\sin(x),$ $x_1=0,$ $x_2=\pi,$ $\boldsymbol{y}_1=\frac{\pi}{2},$ $\boldsymbol{y}_2=1,$ 则针对求导算子的数据集$\{\boldsymbol{f}_n(x), \boldsymbol{y}_j, u_{f_{n}}(\boldsymbol{y}_j)\}, n=1, \cdots, 2, j=1, \cdots, 2$​为
+例如, 取
+$$
+f_1=x^2,f_2=\sin(x),x_1=0,x_2=\pi,\boldsymbol{y}_1=\frac{\pi}{2},\boldsymbol{y}_2=1
+$$
+
+
+则针对求导算子的数据集
+$$
+\{\boldsymbol{f}_n(x), \boldsymbol{y}_j, u_{f_{n}}(\boldsymbol{y}_j)\}, n=1, \cdots, 2, j=1, \cdots, 2
+$$
+
+
+为
 $$
 dataset :=
     \left(

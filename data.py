@@ -25,7 +25,7 @@ class create_point(Dataset):
 
     def data(self):
         file_d = 'data.mat'
-        data = np.transpose(h5py.File(file_d)['data'])
+        data = loadmat(file_d)['data']
         if self.mini_batch_flag == False:
             self.func_sample = torch.tensor(data[:, 0:self.b_size],dtype=torch.float32,device=self.device)
             self.y = torch.tensor(data[:, self.b_size:self.b_size + self.t_size], dtype=torch.float32, device=self.device)
@@ -36,7 +36,7 @@ class create_point(Dataset):
             self.G_fy = torch.tensor(data[:,self.b_size + self.t_size:self.b_size + self.t_size + 1], dtype=torch.float32, device='cpu')
 
         file_v = 'test.mat'
-        val_data = np.transpose(h5py.File(file_v)['test'])
+        val_data = loadmat(file_v)['test']
         self.val_func_sample = torch.tensor(val_data[:, 0:self.b_size],dtype=torch.float32,device=self.device)
         self.val_y = torch.tensor(val_data[:, self.b_size:self.b_size + self.t_size], dtype=torch.float32, device=self.device)
         self.val_G_fy = torch.tensor(val_data[:,self.b_size + self.t_size:self.b_size + self.t_size + 1], dtype=torch.float32, device=self.device)
